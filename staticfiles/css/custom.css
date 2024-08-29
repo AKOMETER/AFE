@@ -1,0 +1,27 @@
+.c-work {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.c-work .c-task {
+  padding: 7px 20px;
+  border-radius: 0.25rem;
+  margin: 0px;
+  flex: 1;
+  max-width: 280px;
+}
+
+@media only screen and (max-width: 61.9375rem) {
+  .compose-wrapper {
+      height: unset;
+  }
+}
+
+.inbox-height{
+  min-height: unset !important;
+}
+.card__info li .card__info__stats {
+  padding: 0px;
+}
